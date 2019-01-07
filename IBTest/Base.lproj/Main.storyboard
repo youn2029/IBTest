@@ -66,6 +66,9 @@
                                 <rect key="frame" x="225" y="252" width="65" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button04"/>
+                                <connections>
+                                    <action selector="clickBtn04:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h9A-Wl-fjt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uRv-0D-4bU">
                                 <rect key="frame" x="225" y="306" width="64" height="30"/>
@@ -93,6 +96,7 @@
                     </view>
                     <connections>
                         <outlet property="uiTitie03" destination="3zk-a7-Yp5" id="h2L-mU-0lI"/>
+                        <outlet property="uiTitie04" destination="HEU-bs-hTB" id="Lt8-rX-fyc"/>
                         <outlet property="uiTitle01" destination="BjQ-Eg-MGx" id="qqL-5I-6an"/>
                         <outlet property="uiTitle02" destination="YtM-i0-THq" id="fA7-iO-OtD"/>
                     </connections>

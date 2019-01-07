@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     
     @IBOutlet var uiTitie03: UILabel!
     
+    @IBOutlet var uiTitie04: UILabel!
+    
     @IBAction func clickBtn01(_ sender: Any) {
     }
     
@@ -28,6 +30,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickBtn03(_ sender: Any) {
+    }
+    
+    @IBAction func clickBtn04(_ sender: Any){
     }
 }
 
