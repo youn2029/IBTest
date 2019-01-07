@@ -9,12 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBOutlet var uiTitle01: UILabel!
 
-
+    @IBAction func clickBtn01(_ sender: Any) {
+    }
+    
 }
 
