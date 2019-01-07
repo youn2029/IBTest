@@ -16,8 +16,13 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet var uiTitle01: UILabel!
-
+    
+    @IBOutlet var uiTitle02: UILabel!
+    
     @IBAction func clickBtn01(_ sender: Any) {
+    }
+    
+    @IBAction func clickBtn02(_ sender: Any) {
     }
     
 }
